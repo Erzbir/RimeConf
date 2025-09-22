@@ -1,0 +1,4 @@
+patch:
+  translator/preedit_format: []
+  "key_binder/bindings/+":
+      - { when: always, accept: Control+Shift+C, select: japanese }

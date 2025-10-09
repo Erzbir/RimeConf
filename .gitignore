@@ -6,3 +6,4 @@ sync/
 *.cache
 *.lock
 *.userdb
+user.yaml

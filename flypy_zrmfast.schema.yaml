@@ -3,7 +3,7 @@
 
 schema:
   schema_id: flypy_zrmfast
-  name: 小鹤快手 # 鹤拼快形 
+  name: 小鹤快手 # 鹤拼快形
   version: "0.1"
   author:
     - Functoreality
@@ -119,7 +119,7 @@ key_binder:
     #- { when: composing, accept: Control+4, send_sequence: '{Home}{Shift+Right}{Shift+Right}{Shift+Right}{Shift+Right}[' }
 
 recognizer:
-  # import_preset: default
+  import_preset: default
   patterns:
     uppercase: ""
     punct: ""
@@ -127,5 +127,3 @@ recognizer:
 
 punctuator:
   import_preset: default
-
-

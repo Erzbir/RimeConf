@@ -1,0 +1,5 @@
+patch:
+  punctuator:
+  "key_binder/bindings/+":
+      - { when: has_menu, accept: minus, send: minus }
+      - { when: always, accept: Control+Shift+C, select: double_pinyin_flypy }

@@ -1,4 +1,6 @@
 patch:
   translator/preedit_format: []
+  speller/alphabet: zyxwvutsrqponmlkjihgfedcba`
   "key_binder/bindings/+":
-      - { when: always, accept: Control+Shift+C, select: japanese }
+    #  - { when: always, accept: Control+Shift+C, select: japanese }
+    - { when: always, accept: Control+Shift+C, select: jaroomaji }

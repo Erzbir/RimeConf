@@ -15,8 +15,8 @@ preset_color_schemes:
     mutual_exclusive: false
     border_height: 0
     border_width: 0
-    corner_radius: 10
-    hilited_corner_radius: 10
+    corner_radius: 7
+    hilited_corner_radius: 7
     surrounding_extra_expansion: 0
     shadow_size: 0
     line_spacing: 8
@@ -53,8 +53,8 @@ preset_color_schemes:
     mutual_exclusive: false
     border_height: 0
     border_width: 0
-    corner_radius: 10
-    hilited_corner_radius: 10
+    corner_radius: 7
+    hilited_corner_radius: 7
     surrounding_extra_expansion: 0
     shadow_size: 0
     line_spacing: 8

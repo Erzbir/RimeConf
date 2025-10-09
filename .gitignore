@@ -7,3 +7,4 @@ sync/
 *.lock
 *.userdb
 user.yaml
+installation.yaml

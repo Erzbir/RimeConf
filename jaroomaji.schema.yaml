@@ -64,8 +64,8 @@ engine:
 # 但し、拗音はここでは対応できないので辞書ファイルで対応する
 # # # # # # # # # # # # # # # # # # # #
 speller:
-  alphabet: "abcdefghijklmnopqrstuvwxyz-"
-  initials: "abcdefghijklmnopqrstuvwxyz"
+  alphabet: "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ-"
+  initials: "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
   delimiter: " '"
   algebra:
     - "derive/-/l/"

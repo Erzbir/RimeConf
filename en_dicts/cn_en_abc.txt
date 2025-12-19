@@ -359,6 +359,8 @@ D之一族	daiyizu
 周刊少年Jump	abkjvknwjump
 藤子·F·不二雄	tgziFbuorxs
 藤子·F·不二雄	tgzifbuorxs
+藤子不二雄A	tgzibuorxsA
+藤子不二雄A	tgzibuorxsa
 我叫MT	wojzMT
 我叫MT	wojzmt
 谜拟Q	miniQ
@@ -603,6 +605,8 @@ J.R.R.托尔金	JRRtoorjc
 J.R.R.托尔金	jrrtoorjc
 乔治·R.R.马丁	qzaiRRmady
 乔治·R.R.马丁	qzairrmady
+T.S.艾略特	TSollte
+T.S.艾略特	tsollte
 互fo	hufo
 减CD	jwCD
 减CD	jwcd

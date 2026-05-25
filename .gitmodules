@@ -1,0 +1,8 @@
+[submodule "packages/rime-ice"]
+	path = packages/rime-ice
+	url = https://github.com/iDvel/rime-ice.git
+	branch = main
+[submodule "packages/rime-kagiroi"]
+	path = packages/rime-kagiroi
+	url = https://github.com/rimeinn/rime-kagiroi.git
+	branch = main

@@ -1,13 +1,13 @@
-# Rime dictionary
+# Rime dictionary wrapper
 # encoding: utf-8
-# Dictionary for kagiroi's table translator
+
 ---
 name: kagiroi
 version: 20241204
 sort: by_weight
 use_preset_vocabulary: false
 import_tables:
-  - kagiroi.mozc
-  - kagiroi.nico
-  - kagiroi.manual
+  - packages/rime-kagiroi/kagiroi.mozc
+  - packages/rime-kagiroi/kagiroi.nico
+  - packages/rime-kagiroi/kagiroi.manual
 ...

@@ -1,9 +1,4 @@
--- 暴力 GC
--- 详情 https://github.com/hchunhui/librime-lua/issues/307
--- 这样也不会导致卡顿，那就每次都调用一下吧，内存稳稳的
-local function force_gc()
-  -- collectgarbage()
-  collectgarbage("step")
-end
-
-return force_gc
+local source = debug.getinfo(1, "S").source
+local path = source:sub(1, 1) == "@" and source:sub(2) or source
+local root = path:gsub("[/\\]lua[/\\].*$", "")
+return dofile(root .. "/packages/rime-ice/lua/force_gc.lua")

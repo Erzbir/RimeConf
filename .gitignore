@@ -1,10 +1,16 @@
 build/
+packages/
+.scheme-backups/
+__pycache__/
+*/__pycache__/
+trash/
 .DS_Store
 sync/
 *.log
 *.tmp
 *.cache
 *.lock
+.scheme-update.lock
 *.userdb
 user.yaml
 installation.yaml

@@ -4,7 +4,7 @@
     "type": "mmseg",
     "dict": {
       "type": "text",
-      "file": "../packages/rime-kagiroi/opencc/kagiroi_h2k.txt"
+      "file": "kagiroi_h2k.txt"
     }
   },
   "conversion_chain": [
@@ -14,7 +14,7 @@
         "dicts": [
           {
             "type": "text",
-            "file": "../packages/rime-kagiroi/opencc/kagiroi_h2k.txt"
+            "file": "kagiroi_h2k.txt"
           }
         ]
       }
@@ -25,7 +25,7 @@
         "dicts": [
           {
             "type": "text",
-            "file": "../packages/rime-kagiroi/opencc/kagiroi_k2kh.txt"
+            "file": "kagiroi_k2kh.txt"
           }
         ]
       }

@@ -10,7 +10,6 @@ sync/
 *.tmp
 *.cache
 *.lock
-.scheme-update.lock
 *.userdb
 user.yaml
 installation.yaml

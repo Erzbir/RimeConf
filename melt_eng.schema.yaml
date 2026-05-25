@@ -1,8 +1,0 @@
-# Rime schema wrapper
-# encoding: utf-8
----
-__include: packages/rime-ice/melt_eng.schema:/
-
-schema:
-  schema_id: melt_eng
-  name: Easy English Nano

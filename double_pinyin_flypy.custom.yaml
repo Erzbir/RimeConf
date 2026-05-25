@@ -1,5 +1,21 @@
 patch:
+  schema/dependencies: []
+
+  engine/translators:
+    - punct_translator
+    - script_translator
+    - lua_translator@*date_translator
+    - lua_translator@*lunar
+    - lua_translator@*uuid
+    - table_translator@custom_phrase
+    - lua_translator@*unicode
+    - lua_translator@*number_translator
+    - lua_translator@*calc_translator
+    - lua_translator@*force_gc
+
   translator/preedit_format: []
+
   speller/alphabet: zyxwvutsrqponmlkjihgfedcba`
+
   "key_binder/bindings/+":
     - { when: always, accept: Control+Shift+C, select: kagiroi}

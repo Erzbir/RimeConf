@@ -1,8 +1,0 @@
-# Rime schema wrapper
-# encoding: utf-8
----
-__include: packages/rime-ice/radical_pinyin.schema:/
-
-schema:
-  schema_id: radical_pinyin
-  name:  "部件拆字 | 全拼双拼"

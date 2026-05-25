@@ -1,0 +1,9 @@
+/double_pinyin_flypy.schema.yaml
+/rime_ice.dict.yaml
+/symbols_v.yaml
+/symbols_caps_v.yaml
+/cn_dicts/*
+/en_dicts/*
+/lua/*
+/lua/cold_word_drop/*
+/opencc/*

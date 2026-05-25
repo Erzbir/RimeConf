@@ -1,0 +1,4 @@
+/kagiroi*.yaml
+/lua/kagiroi/*
+/lua/kagiroi/dic/*
+/opencc/*

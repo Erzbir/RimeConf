@@ -1,4 +1,12 @@
-local source = debug.getinfo(1, "S").source
-local path = source:sub(1, 1) == "@" and source:sub(2) or source
-local root = path:gsub("[/\\]lua[/\\].*$", "")
-return dofile(root .. "/packages/rime-ice/lua/debuger.lua")
+local function debuger(input, env)
+  for cand in input:iter() do
+    yield(ShadowCandidate(
+      cand,
+      cand.type,
+      cand.text,
+      env.engine.context.input .. " - " .. env.engine.context:get_preedit().text .. " - " .. cand.preedit
+    ))
+  end
+end
+
+return debuger

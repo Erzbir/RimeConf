@@ -13,9 +13,10 @@ BACKUP := .scheme-backups/last
 .PHONY: sync update help rules backup restore
 
 sync:
-	git pull --ff-only --recurse-submodules
+	git pull --ff-only
 	git submodule sync --recursive
-	git submodule update --init --recursive
+	git submodule foreach --recursive 'git fetch --all --prune'
+	git submodule update --init --recursive --remote --merge
 
 update: backup sync $(DENY) $(ICE) $(KAGIROI)
 	@if [ ! -d packages/rime-ice ]; then printf 'missing package: %s\n' packages/rime-ice >&2; exit 1; fi

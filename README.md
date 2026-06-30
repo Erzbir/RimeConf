@@ -29,14 +29,22 @@ make update
 
 `make update` 会执行:
 
-1. 备份即将被覆盖的文件到 `.scheme-backups/last`
-2. 同步并更新子模块
-3. 按 `rules` 中的的白名单复制上游文件
+1. 同步并更新子模块
+2. 在每个上游子模块里执行 `git pull --ff-only origin main`
+3. 记录本次 `git pull` 拉取到的文件
+4. 备份这些文件会覆盖的本地文件到 `.scheme-backups/last`
+5. 只复制命中 `rules` 白名单且本次 `git pull` 拉取到的上游文件
 
 回退到上一次更新前的状态:
 
 ```sh
 make restore
+```
+
+需要重新按白名单完整覆盖一次上游文件:
+
+```sh
+make update-all
 ```
 
 ## 自定义

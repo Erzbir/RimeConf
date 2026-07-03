@@ -1,4 +1,2 @@
 patch:
   "engine/processors/@before 3": lua_processor@*kagiroi_romaji_commit
-  "key_binder/bindings/+":
-      - { when: always, accept: Control+Shift+C, select: double_pinyin_flypy }

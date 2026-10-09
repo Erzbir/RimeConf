@@ -1,2 +1,7 @@
 patch:
   "engine/processors/@before 3": lua_processor@*kagiroi_romaji_commit
+
+  "switches/@4":
+    name: emoji
+    states: [ "🫥", "😀" ]
+    reset: 1

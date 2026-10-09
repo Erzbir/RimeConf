@@ -16,3 +16,8 @@ patch:
   translator/preedit_format: []
 
   speller/alphabet: zyxwvutsrqponmlkjihgfedcba`
+
+  "switches/@3":
+    name: emoji
+    states: [ "🫥", "😀" ]
+    reset: 1
